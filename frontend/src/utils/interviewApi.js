@@ -1,7 +1,12 @@
 // Interview API Client for Agent 4 (Interviewer Engine)
 // Connects frontend directly to FastAPI routes on port 8000
 
-const API_BASE = (import.meta.env.VITE_API_URL || "").replace(/\/$/, "");
+const API_BASE = (
+  import.meta.env.VITE_API_URL ||
+  (typeof window !== "undefined" && !window.location.hostname.includes("localhost") && !window.location.hostname.includes("127.0.0.1")
+    ? "https://carrierai.onrender.com"
+    : "")
+).replace(/\/$/, "");
 
 export async function startInterviewSession(candidateName, role) {
   try {

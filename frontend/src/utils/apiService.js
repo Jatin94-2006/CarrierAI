@@ -13,7 +13,12 @@ import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 import { supabase } from './supabaseClient';
 
-const API_BASE = (import.meta.env.VITE_API_URL || "").replace(/\/$/, "");
+const API_BASE = (
+  import.meta.env.VITE_API_URL ||
+  (typeof window !== "undefined" && !window.location.hostname.includes("localhost") && !window.location.hostname.includes("127.0.0.1")
+    ? "https://carrierai.onrender.com"
+    : "")
+).replace(/\/$/, "");
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 export const authService = {
