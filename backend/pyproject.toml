@@ -1,0 +1,13 @@
+[tool.pyrefly]
+search-path = [
+  ".",
+  "app",
+  "interview_app",
+  "agent2",
+  "agent3",
+  "agent5"
+]
+
+[tool.pyrefly.errors]
+missing-import = "ignore"
+

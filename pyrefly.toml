@@ -1,0 +1,13 @@
+search-path = [
+  ".",
+  "backend",
+  "backend/app",
+  "backend/interview_app",
+  "backend/agent2",
+  "backend/agent3",
+  "backend/agent5"
+]
+
+[errors]
+missing-import = "ignore"
+
