@@ -1,0 +1,11 @@
+search-path = [
+  ".",
+  "app",
+  "interview_app",
+  "agent2",
+  "agent3",
+  "agent5"
+]
+
+[errors]
+missing-import = "ignore"
