@@ -1,0 +1,38 @@
+{
+  "interview_id": "inv_9a8b7c6d-1234-5678-abcd-ef0123456789",
+  "role": "AI Engineer",
+  "analysis_type": "interview_performance_gap",
+  "status": "completed",
+  "data": {
+    "overall_interview_score": 3.2,
+    "technical_evaluation": {
+      "demonstrated_strong_skills": [
+        "RAG - context window optimization using semantic chunking and cached embeddings with sub-400ms latency"
+      ],
+      "critical_technical_gaps": [
+        "LangGraph - state persistence and cyclical multi-agent handoffs"
+      ],
+      "skipped_skills": ["LangGraph"],
+      "conceptual_misunderstandings": [],
+      "priority_technical_topics_to_learn": [
+        "LangGraph (state persistence, cyclical multi-agent handoffs vs traditional DAG pipelines)",
+        "Advanced RAG latency and token-budget optimization techniques"
+      ]
+    },
+    "soft_skills_evaluation": {
+      "communication_clarity": "Needs Improvement",
+      "problem_solving_approach": "Direct",
+      "observed_soft_skill_strengths": [
+        "Provides a concise response",
+        "Direct and honest about technical limitations"
+      ],
+      "critical_soft_skill_gaps": [
+        "Does not translate technical failure into business impact",
+        "Lacks proactive mitigation suggestions",
+        "Uses vague, inaccurate language for stakeholder communication"
+      ]
+    },
+    "actionable_interview_advice": "Study LangGraph concepts and practice explaining technical issues in business terms, focusing on structured stakeholder communication (e.g., STAR method)."
+  },
+  "created_at": "2026-10-30T12:38:38Z"
+}

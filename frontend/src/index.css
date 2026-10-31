@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #07121e;
+  --navy-2: #0b1928;
+  --navy-3: #102235;
+
+  --cream: #f7f3ed;
+  --cream-2: #eee8df;
+
+  --orange: #ff806b;
+  --orange-dark: #dc6653;
+  --orange-soft: #ffe1d9;
+
+  --text: #17212c;
+  --text-2: #45515d;
+  --muted: #747e88;
+  --light-muted: #9aa5af;
+
+  --white: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter, Arial, sans-serif;
+  background: #07121e;
+  color: #17212c;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07121e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+  border: 2px solid #07121e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Cursor Glow */
+.cursor-glow-dot {
+  position: fixed;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(255, 128, 107, 0.12), transparent 68%);
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: left 0.08s linear, top 0.08s linear;
+}
+
+/* Hero left clip path */
+.hero-left-cut {
+  clip-path: polygon(
+    0 0,
+    94% 0,
+    97% 2%,
+    97% 7%,
+    95% 14%,
+    92% 23%,
+    89% 33%,
+    86% 43%,
+    83% 53%,
+    80% 63%,
+    76% 73%,
+    73% 82%,
+    70% 91%,
+    67% 100%,
+    0 100%
+  );
+}
+
+@media (max-width: 950px) {
+  .hero-left-cut {
+    clip-path: none;
+  }
+}
+
+/* Orbit Rotations */
+@keyframes rotateOrbit {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.orbit-ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 128, 107, 0.22);
+  transform: translate(-50%, -50%);
+  animation: rotateOrbit 18s linear infinite;
+  pointer-events: none;
+}
+
+.orbit-ring.one {
+  width: 470px;
+  height: 300px;
+}
+
+.orbit-ring.two {
+  width: 365px;
+  height: 245px;
+  border-color: rgba(255, 128, 107, 0.16);
+  animation-duration: 14s;
+  animation-direction: reverse;
+}
+
+.orbit-ring.three {
+  width: 270px;
+  height: 185px;
+  border-style: dashed;
+  animation-duration: 10s;
+}
+
+@keyframes arrowFloatMove {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(6px);
+  }
+}
+
+.animate-arrow-move {
+  animation: arrowFloatMove 2s ease-in-out infinite;
+}
+
+/* Glassmorphism */
+.glass-panel {
+  background: rgba(11, 25, 40, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}

@@ -1,0 +1,5 @@
+# Agent 5 – 30-Day Personalized Learning Planner
+# Requirements
+# Install with: pip install -r requirements.txt
+
+reportlab>=4.0.0

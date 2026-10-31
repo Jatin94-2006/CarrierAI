@@ -1,0 +1,106 @@
+{
+  "user_profile": {
+    "name": "Learner",
+    "current_role": "Fresher / Student",
+    "target_role": "Data Scientist",
+    "current_skill_level": "Beginner"
+  },
+  "agent2_gap_analysis": {
+    "missing_skills": [
+      "Python Basics",
+      "Python Loops & Functions",
+      "NumPy",
+      "Pandas",
+      "Data Visualization (Matplotlib & Seaborn)",
+      "Statistics & Probability",
+      "SQL for Data Analysis",
+      "Machine Learning Fundamentals",
+      "Supervised Learning (Regression & Classification)",
+      "Unsupervised Learning (Clustering & PCA)",
+      "Model Evaluation & Metrics",
+      "Feature Engineering",
+      "Natural Language Processing (NLP) Basics",
+      "Deep Learning Basics (Neural Networks)",
+      "Data Storytelling & Communication"
+    ],
+    "skill_priority": {
+      "Python Basics": "High",
+      "Python Loops & Functions": "High",
+      "NumPy": "High",
+      "Pandas": "High",
+      "Data Visualization (Matplotlib & Seaborn)": "High",
+      "Statistics & Probability": "High",
+      "SQL for Data Analysis": "Medium",
+      "Machine Learning Fundamentals": "High",
+      "Supervised Learning (Regression & Classification)": "High",
+      "Unsupervised Learning (Clustering & PCA)": "Medium",
+      "Model Evaluation & Metrics": "High",
+      "Feature Engineering": "Medium",
+      "Natural Language Processing (NLP) Basics": "Medium",
+      "Deep Learning Basics (Neural Networks)": "Low",
+      "Data Storytelling & Communication": "Medium"
+    }
+  },
+  "agent3_course_suggestions": {
+    "Python Basics": {
+      "priority_link": "https://www.w3schools.com/python/",
+      "optional_link": "https://www.geeksforgeeks.org/python-programming-language-tutorial/"
+    },
+    "Python Loops & Functions": {
+      "priority_link": "https://www.w3schools.com/python/python_for_loops.asp",
+      "optional_link": "https://www.freecodecamp.org/news/python-functions-define-and-call-a-function/"
+    },
+    "NumPy": {
+      "priority_link": "https://www.w3schools.com/python/numpy/default.asp",
+      "optional_link": "https://www.geeksforgeeks.org/numpy-tutorial/"
+    },
+    "Pandas": {
+      "priority_link": "https://www.w3schools.com/python/pandas/default.asp",
+      "optional_link": "https://www.kaggle.com/learn/pandas"
+    },
+    "Data Visualization (Matplotlib & Seaborn)": {
+      "priority_link": "https://www.w3schools.com/python/matplotlib_intro.asp",
+      "optional_link": "https://www.kaggle.com/learn/data-visualization"
+    },
+    "Statistics & Probability": {
+      "priority_link": "https://www.khanacademy.org/math/statistics-probability",
+      "optional_link": "https://www.geeksforgeeks.org/statistics-for-machine-learning/"
+    },
+    "SQL for Data Analysis": {
+      "priority_link": "https://www.w3schools.com/sql/",
+      "optional_link": "https://www.kaggle.com/learn/intro-to-sql"
+    },
+    "Machine Learning Fundamentals": {
+      "priority_link": "https://www.geeksforgeeks.org/machine-learning/",
+      "optional_link": "https://www.kaggle.com/learn/intro-to-machine-learning"
+    },
+    "Supervised Learning (Regression & Classification)": {
+      "priority_link": "https://www.geeksforgeeks.org/supervised-machine-learning/",
+      "optional_link": "https://www.kaggle.com/learn/intermediate-machine-learning"
+    },
+    "Unsupervised Learning (Clustering & PCA)": {
+      "priority_link": "https://www.geeksforgeeks.org/ml-types-learning-part-2/",
+      "optional_link": "https://www.kaggle.com/learn/intro-to-machine-learning"
+    },
+    "Model Evaluation & Metrics": {
+      "priority_link": "https://www.geeksforgeeks.org/metrics-for-machine-learning-model/",
+      "optional_link": "https://scikit-learn.org/stable/modules/model_evaluation.html"
+    },
+    "Feature Engineering": {
+      "priority_link": "https://www.geeksforgeeks.org/feature-engineering-for-machine-learning/",
+      "optional_link": "https://www.kaggle.com/learn/feature-engineering"
+    },
+    "Natural Language Processing (NLP) Basics": {
+      "priority_link": "https://www.geeksforgeeks.org/natural-language-processing-nlp-tutorial/",
+      "optional_link": "https://www.kaggle.com/learn/natural-language-processing"
+    },
+    "Deep Learning Basics (Neural Networks)": {
+      "priority_link": "https://www.geeksforgeeks.org/deep-learning-tutorial/",
+      "optional_link": "https://www.kaggle.com/learn/intro-to-deep-learning"
+    },
+    "Data Storytelling & Communication": {
+      "priority_link": "https://www.geeksforgeeks.org/data-storytelling/",
+      "optional_link": "https://www.freecodecamp.org/news/data-visualization-and-data-storytelling/"
+    }
+  }
+}

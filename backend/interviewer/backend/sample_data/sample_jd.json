@@ -1,0 +1,63 @@
+{
+  "job": {
+    "title": "Senior AI Systems Engineer",
+    "company": "DeepTech Innovations",
+    "category": "Artificial Intelligence & Software Engineering",
+    "seniority": "Senior",
+    "experience_required": 3,
+    "preferred_experience": 5,
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "LangGraph or Agentic Workflows",
+      "Retrieval-Augmented Generation (RAG)",
+      "Vector Databases (Pinecone/Qdrant)",
+      "PostgreSQL or Supabase"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Next.js",
+      "Speech-to-Text & Text-to-Speech Integration",
+      "Docker & Kubernetes",
+      "Go"
+    ],
+    "tools_and_technologies": [
+      "Git",
+      "Docker",
+      "Postman",
+      "Linux",
+      "OpenRouter",
+      "Redis"
+    ],
+    "keywords": [
+      "LLM Agent",
+      "RAG Latency Optimization",
+      "Distributed Systems",
+      "Microservices"
+    ],
+    "required_soft_skills": [
+      "Technical Communication",
+      "System Design Trade-off Evaluation",
+      "Problem Solving Under Ambiguity",
+      "Cross-functional Collaboration"
+    ],
+    "responsibilities": [
+      "Architect and scale multi-agent LLM systems with autonomous reasoning and error correction.",
+      "Design ultra-low latency RAG pipelines handling millions of vector embeddings.",
+      "Build real-time spoken and multimodal user experiences with resilient fallback strategies.",
+      "Mentor junior engineers and champion clean code, rigorous testing, and secure data handling."
+    ],
+    "technical_requirements": [
+      "Demonstrated experience designing production LLM agents with state management.",
+      "Deep understanding of vector indexing algorithms (HNSW, IVFFlat) and hybrid search.",
+      "Proficiency in asynchronous Python, API rate-limiting, and error-resilient microservices."
+    ],
+    "education": {
+      "minimum": "Bachelor's degree in Computer Science or related engineering field"
+    },
+    "mandatory_certifications": [],
+    "mandatory_requirements": [
+      "Minimum 3 years of hands-on software development experience."
+    ]
+  }
+}

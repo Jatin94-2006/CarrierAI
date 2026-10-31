@@ -1,0 +1,33 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Node dependencies & build
+node_modules/
+dist/
+build/
+
+# Python caches & runtime
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.pytest_cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Local databases & audio cache
+*.db
+cache/audio/*.mp3
+cache/*.mp3
+uploads/*
+!uploads/.gitkeep
+shared_output/*
+!shared_output/.gitkeep

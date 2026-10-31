@@ -1,0 +1,654 @@
+{
+  "agent": "Agent 3 - Course Suggestion Agent",
+  "status": "success",
+  "candidate_name": "Kriti Mahajan",
+  "target_job_role": "Python Backend Developer | AI Engineer",
+  "duration_filter": "All resources strictly < 1 week (crash courses & micro-learning for 30-day planner)",
+  "input_summary": {
+    "sources_merged": [
+      "resume_gap.json",
+      "interview_gap.json"
+    ],
+    "technical_skills_requested": [
+      "Python",
+      "FastAPI",
+      "SQL",
+      "Git",
+      "PostgreSQL",
+      "Docker",
+      "Linux",
+      "Redis",
+      "AWS",
+      "LangGraph",
+      "Advanced RAG Optimization"
+    ],
+    "soft_skills_requested": [
+      "Communication",
+      "Team Collaboration",
+      "Stakeholder Communication & Business Impact"
+    ],
+    "skill_levels": {
+      "Python": "Critical Gap",
+      "FastAPI": "Critical Gap",
+      "SQL": "Critical Gap",
+      "Git": "Critical Gap",
+      "PostgreSQL": "Critical Gap",
+      "Docker": "Critical Gap",
+      "Linux": "Critical Gap",
+      "Redis": "Important Gap",
+      "AWS": "Important Gap",
+      "Communication": "Missing",
+      "Team Collaboration": "Missing",
+      "LangGraph": "Critical Gap (Interview)",
+      "Advanced RAG Optimization": "High Priority (Interview)",
+      "Stakeholder Communication & Business Impact": "Needs Improvement (STAR Method)"
+    }
+  },
+  "technical_recommendations": [
+    {
+      "skill": "Python",
+      "skill_category": "Technical",
+      "recommended": {
+        "title": "Python for Beginners – Comprehensive Crash Course",
+        "platform": "freeCodeCamp (YouTube)",
+        "skill": "Python",
+        "skill_category": "Technical",
+        "difficulty": "Beginner",
+        "description": "Fast-track Python essentials: syntax, data structures, functions, OOP, and practical exercises.",
+        "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "resource_type": "Video",
+        "is_free": true,
+        "duration": "4.5 hours (< 1 day)",
+        "duration_hours": 4.5,
+        "under_one_week": true,
+        "priority": 1,
+        "highly_suggested": true
+      },
+      "options": [
+        {
+          "title": "Python Quickstart Tutorial",
+          "platform": "W3Schools",
+          "skill": "Python",
+          "skill_category": "Technical",
+          "difficulty": "Beginner",
+          "description": "Interactive byte-sized Python modules with instant code run exercises.",
+          "url": "https://www.w3schools.com/python/",
+          "resource_type": "Tutorial",
+          "is_free": true,
+          "duration": "6 hours (2 days)",
+          "duration_hours": 6.0,
+          "under_one_week": true,
+          "priority": 2,
+          "highly_suggested": false
+        },
+        {
+          "title": "Python Top Interview Coding Questions",
+          "platform": "GeeksforGeeks",
+          "skill": "Python",
+          "skill_category": "Technical",
+          "difficulty": "Intermediate",
+          "description": "Targeted Python problem-solving patterns and high-frequency backend interview code snippets.",
+          "url": "https://www.geeksforgeeks.org/python-programming-language/",
+          "resource_type": "Tutorial",
+          "is_free": true,
+          "duration": "5 hours (2 days)",
+          "duration_hours": 5.0,
+          "under_one_week": true,
+          "priority": 3,
+          "highly_suggested": false
+        }
+      ],
+      "total_options_count": 2
+    },
+    {
+      "skill": "FastAPI",
+      "skill_category": "Technical",
+      "recommended": {
+        "title": "FastAPI Crash Course – Build & Deploy APIs",
+        "platform": "freeCodeCamp (YouTube)",
+        "skill": "FastAPI",
+        "skill_category": "Technical",
+        "difficulty": "Beginner",
+        "description": "Hands-on API creation: routing, Pydantic validation, dependency injection, and JWT security.",
+        "url": "https://www.youtube.com/watch?v=tLKKmouUams",
+        "resource_type": "Video",
+        "is_free": true,
+        "duration": "5 hours (1 day)",
+        "duration_hours": 5.0,
+        "under_one_week": true,
+        "priority": 1,
+        "highly_suggested": true
+      },
+      "options": [
+        {
+          "title": "FastAPI Fast-Track Official Tutorial",
+          "platform": "FastAPI Docs",
+          "skill": "FastAPI",
+          "skill_category": "Technical",
+          "difficulty": "Intermediate",
+          "description": "Concise official guide covering async def, path parameters, request bodies, and Swagger testing.",
+          "url": "https://fastapi.tiangolo.com/tutorial/",
+          "resource_type": "Documentation",
+          "is_free": true,
+          "duration": "4 hours (1-2 days)",
+          "duration_hours": 4.0,
+          "under_one_week": true,
+          "priority": 2,
+          "highly_suggested": false
+        },
+        {
+          "title": "Building REST APIs with FastAPI in Python",
+          "platform": "GeeksforGeeks",
+          "skill": "FastAPI",
+          "skill_category": "Technical",
+          "difficulty": "Beginner",
+          "description": "Quick tutorial on building and testing high-speed async microservices with Uvicorn.",
+          "url": "https://www.geeksforgeeks.org/fastapi-introduction/",
+          "resource_type": "Tutorial",
+          "is_free": true,
+          "duration": "3 hours (1 day)",
+          "duration_hours": 3.0,
+          "under_one_week": true,
+          "priority": 3,
+          "highly_suggested": false
+        }
+      ],
+      "total_options_count": 2
+    },
+    {
+      "skill": "SQL",
+      "skill_category": "Technical",
+      "recommended": {
+        "title": "SQL Database Crash Course for Developers",
+        "platform": "freeCodeCamp (YouTube)",
+        "skill": "SQL",
+        "skill_category": "Technical",
+        "difficulty": "Beginner",
+        "description": "Complete core SQL: SELECT queries, WHERE filters, aggregate functions, and multi-table JOINs.",
+        "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+        "resource_type": "Video",
+        "is_free": true,
+        "duration": "4.2 hours (< 1 day)",
+        "duration_hours": 4.2,
+        "under_one_week": true,
+        "priority": 1,
+        "highly_suggested": true
+      },
+      "options": [
+        {
+          "title": "SQL Interactive Exercises",
+          "platform": "W3Schools",
+          "skill": "SQL",
+          "skill_category": "Technical",
+          "difficulty": "Beginner",
+          "description": "Quick self-paced exercises for mastering SQL syntax and subqueries in hours.",
+          "url": "https://www.w3schools.com/sql/",
+          "resource_type": "Tutorial",
+          "is_free": true,
+          "duration": "4 hours (1 day)",
+          "duration_hours": 4.0,
+          "under_one_week": true,
+          "priority": 2,
+          "highly_suggested": false
+        },
+        {
+          "title": "Intro to SQL Micro-Course",
+          "platform": "Kaggle Learn",
+          "skill": "SQL",
+          "skill_category": "Technical",
+          "difficulty": "Beginner",
+          "description": "Interactive notebook queries with BigQuery covering group by, joins, and indexing.",
+          "url": "https://www.kaggle.com/learn/intro-to-sql",
+          "resource_type": "Course",
+          "is_free": true,
+          "duration": "3 hours (< 1 day)",
+          "duration_hours": 3.0,
+          "under_one_week": true,
+          "priority": 3,
+          "highly_suggested": false
+        }
+      ],
+      "total_options_count": 2
+    },
+    {
+      "skill": "Git",
+      "skill_category": "Technical",
+      "recommended": {
+        "title": "Git & GitHub Crash Course for Developers",
+        "platform": "freeCodeCamp (YouTube)",
+        "skill": "Git",
+        "skill_category": "Technical",
+        "difficulty": "Beginner",
+        "description": "Master branching, staging, commits, PR reviews, merge conflict resolution, and remotes.",
+        "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+        "resource_type": "Video",
+        "is_free": true,
+        "duration": "1.2 hours (< 1 day)",
+        "duration_hours": 1.2,
+        "under_one_week": true,
+        "priority": 1,
+        "highly_suggested": true
+      },
+      "options": [
+        {
+          "title": "Git Fast Reference & Interactive Guide",
+          "platform": "W3Schools",
+          "skill": "Git",
+          "skill_category": "Technical",
+          "difficulty": "Beginner",
+          "description": "Short cheatsheet-driven lessons explaining git workflows and commands.",
+          "url": "https://www.w3schools.com/git/",
+          "resource_type": "Tutorial",
+          "is_free": true,
+          "duration": "2 hours (1 day)",
+          "duration_hours": 2.0,
+          "under_one_week": true,
+          "priority": 2,
+          "highly_suggested": false
+        }
+      ],
+      "total_options_count": 1
+    },
+    {
+      "skill": "PostgreSQL",
+      "skill_category": "Technical",
+      "recommended": {
+        "title": "PostgreSQL Quick Crash Course for Developers",
+        "platform": "freeCodeCamp (YouTube)",
+        "skill": "PostgreSQL",
+        "skill_category": "Technical",
+        "difficulty": "Beginner",
+        "description": "Postgres schema creation, relationships, foreign keys, transactions, and indexing.",
+        "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+        "resource_type": "Video",
+        "is_free": true,
+        "duration": "4 hours (1 day)",
+        "duration_hours": 4.0,
+        "under_one_week": true,
+        "priority": 1,
+        "highly_suggested": true
+      },
+      "options": [
+        {
+          "title": "PostgreSQL Essentials in 3 Days",
+          "platform": "PostgreSQL Tutorial",
+          "skill": "PostgreSQL",
+          "skill_category": "Technical",
+          "difficulty": "Beginner",
+          "description": "Hands-on guide to database administration, queries, and JSONB document storage.",
+          "url": "https://www.postgresqltutorial.com/",
+          "resource_type": "Tutorial",
+          "is_free": true,
+          "duration": "5 hours (2 days)",
+          "duration_hours": 5.0,
+          "under_one_week": true,
+          "priority": 2,
+          "highly_suggested": false
+        }
+      ],
+      "total_options_count": 1
+    },
+    {
+      "skill": "Docker",
+      "skill_category": "Technical",
+      "recommended": {
+        "title": "Docker in 3 Hours – Fast-Track Containerization",
+        "platform": "TechWorld with Nana (YouTube)",
+        "skill": "Docker",
+        "skill_category": "Technical",
+        "difficulty": "Beginner",
+        "description": "Dockerfiles, container lifecycles, volumes, network bridging, and docker-compose orchestration.",
+        "url": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+        "resource_type": "Video",
+        "is_free": true,
+        "duration": "3 hours (< 1 day)",
+        "duration_hours": 3.0,
+        "under_one_week": true,
+        "priority": 1,
+        "highly_suggested": true
+      },
+      "options": [
+        {
+          "title": "Docker Hands-On Quickstart",
+          "platform": "Docker Docs",
+          "skill": "Docker",
+          "skill_category": "Technical",
+          "difficulty": "Beginner",
+          "description": "Step-by-step practical guide to dockerizing a backend web app in under 2 hours.",
+          "url": "https://docs.docker.com/get-started/",
+          "resource_type": "Documentation",
+          "is_free": true,
+          "duration": "2 hours (1 day)",
+          "duration_hours": 2.0,
+          "under_one_week": true,
+          "priority": 2,
+          "highly_suggested": false
+        }
+      ],
+      "total_options_count": 1
+    },
+    {
+      "skill": "Linux",
+      "skill_category": "Technical",
+      "recommended": {
+        "title": "Linux Command Line in 4 Hours",
+        "platform": "freeCodeCamp (YouTube)",
+        "skill": "Linux",
+        "skill_category": "Technical",
+        "difficulty": "Beginner",
+        "description": "Core shell commands, navigation, pipes, chmod permissions, systemctl, and SSH.",
+        "url": "https://www.youtube.com/watch?v=ZtqBQ68cfJc",
+        "resource_type": "Video",
+        "is_free": true,
+        "duration": "4 hours (1-2 days)",
+        "duration_hours": 4.0,
+        "under_one_week": true,
+        "priority": 1,
+        "highly_suggested": true
+      },
+      "options": [
+        {
+          "title": "Linux Journey – Fast Track Command Line",
+          "platform": "Linux Journey",
+          "skill": "Linux",
+          "skill_category": "Technical",
+          "difficulty": "Beginner",
+          "description": "Bite-sized visual modules covering process management and server troubleshooting.",
+          "url": "https://linuxjourney.com/",
+          "resource_type": "Tutorial",
+          "is_free": true,
+          "duration": "3 hours (1 day)",
+          "duration_hours": 3.0,
+          "under_one_week": true,
+          "priority": 2,
+          "highly_suggested": false
+        }
+      ],
+      "total_options_count": 1
+    },
+    {
+      "skill": "Redis",
+      "skill_category": "Technical",
+      "recommended": {
+        "title": "Redis Crash Course – High-Speed In-Memory Caching",
+        "platform": "freeCodeCamp (YouTube)",
+        "skill": "Redis",
+        "skill_category": "Technical",
+        "difficulty": "Beginner",
+        "description": "Learn Redis data types, key expiration (TTL), pub/sub messaging, and caching with Python.",
+        "url": "https://www.youtube.com/watch?v=jgpVdJB2sKQ",
+        "resource_type": "Video",
+        "is_free": true,
+        "duration": "1.5 hours (< 1 day)",
+        "duration_hours": 1.5,
+        "under_one_week": true,
+        "priority": 1,
+        "highly_suggested": true
+      },
+      "options": [
+        {
+          "title": "Redis for Python Developers in 1 Day",
+          "platform": "Redis Official Docs",
+          "skill": "Redis",
+          "skill_category": "Technical",
+          "difficulty": "Intermediate",
+          "description": "Fast tutorial showing how to use redis-py for caching API responses and session store.",
+          "url": "https://redis.io/docs/latest/develop/connect/clients/python/",
+          "resource_type": "Documentation",
+          "is_free": true,
+          "duration": "2.5 hours (1 day)",
+          "duration_hours": 2.5,
+          "under_one_week": true,
+          "priority": 2,
+          "highly_suggested": false
+        }
+      ],
+      "total_options_count": 1
+    },
+    {
+      "skill": "AWS",
+      "skill_category": "Technical",
+      "recommended": {
+        "title": "AWS Cloud for Backend Developers – Fast Track",
+        "platform": "freeCodeCamp (YouTube)",
+        "skill": "AWS",
+        "skill_category": "Technical",
+        "difficulty": "Beginner",
+        "description": "Concise overview of EC2, S3, RDS, Lambda, and IAM needed for deploying web apps.",
+        "url": "https://www.youtube.com/watch?v=k1RI5locZE4",
+        "resource_type": "Video",
+        "is_free": true,
+        "duration": "4 hours (1-2 days)",
+        "duration_hours": 4.0,
+        "under_one_week": true,
+        "priority": 1,
+        "highly_suggested": true
+      },
+      "options": [
+        {
+          "title": "AWS Cloud Essentials Micro-Path",
+          "platform": "AWS Skill Builder",
+          "skill": "AWS",
+          "skill_category": "Technical",
+          "difficulty": "Beginner",
+          "description": "Official interactive self-paced micro-course covering cloud architecture fundamentals.",
+          "url": "https://explore.skillbuilder.aws/",
+          "resource_type": "Course",
+          "is_free": true,
+          "duration": "3 hours (1 day)",
+          "duration_hours": 3.0,
+          "under_one_week": true,
+          "priority": 2,
+          "highly_suggested": false
+        }
+      ],
+      "total_options_count": 1
+    },
+    {
+      "skill": "LangGraph",
+      "skill_category": "Technical",
+      "recommended": {
+        "title": "AI Agents with LangGraph – Rapid Short Course",
+        "platform": "DeepLearning.AI",
+        "skill": "LangGraph",
+        "skill_category": "Technical",
+        "difficulty": "Intermediate",
+        "description": "Build stateful multi-agent workflows, cyclical execution, persistence, and agent handoffs.",
+        "url": "https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/",
+        "resource_type": "Course",
+        "is_free": true,
+        "duration": "1.5 hours (< 1 day)",
+        "duration_hours": 1.5,
+        "under_one_week": true,
+        "priority": 1,
+        "highly_suggested": true
+      },
+      "options": [
+        {
+          "title": "LangGraph Quickstart & State Persistence Guide",
+          "platform": "LangChain Docs",
+          "skill": "LangGraph",
+          "skill_category": "Technical",
+          "difficulty": "Intermediate",
+          "description": "Official code-along guide for StateGraph, checkpoints, and multi-agent coordination.",
+          "url": "https://langchain-ai.github.io/langgraph/",
+          "resource_type": "Documentation",
+          "is_free": true,
+          "duration": "2.5 hours (1 day)",
+          "duration_hours": 2.5,
+          "under_one_week": true,
+          "priority": 2,
+          "highly_suggested": false
+        }
+      ],
+      "total_options_count": 1
+    },
+    {
+      "skill": "Advanced RAG Optimization",
+      "skill_category": "Technical",
+      "recommended": {
+        "title": "Advanced Retrieval for AI – Speed & Latency Optimization",
+        "platform": "DeepLearning.AI",
+        "skill": "Advanced RAG Optimization",
+        "skill_category": "Technical",
+        "difficulty": "Intermediate",
+        "description": "Sub-400ms query latency, semantic chunking, embedding caching, and re-ranking pipelines.",
+        "url": "https://www.deeplearning.ai/short-courses/advanced-retrieval-for-ai/",
+        "resource_type": "Course",
+        "is_free": true,
+        "duration": "1.2 hours (< 1 day)",
+        "duration_hours": 1.2,
+        "under_one_week": true,
+        "priority": 1,
+        "highly_suggested": true
+      },
+      "options": [
+        {
+          "title": "Optimizing RAG Performance & Token Budget",
+          "platform": "freeCodeCamp (YouTube)",
+          "skill": "Advanced RAG Optimization",
+          "skill_category": "Technical",
+          "difficulty": "Intermediate",
+          "description": "Master vector indexing caches, hybrid search (BM25 + Dense), and token economy.",
+          "url": "https://www.youtube.com/watch?v=tcqEUSNCn8I",
+          "resource_type": "Video",
+          "is_free": true,
+          "duration": "2.5 hours (1 day)",
+          "duration_hours": 2.5,
+          "under_one_week": true,
+          "priority": 2,
+          "highly_suggested": false
+        }
+      ],
+      "total_options_count": 1
+    }
+  ],
+  "soft_recommendations": [
+    {
+      "skill": "Communication",
+      "skill_category": "Soft",
+      "recommended": {
+        "title": "Technical Communication & Active Listening Crash Course",
+        "platform": "YouTube (Career Skills)",
+        "skill": "Communication",
+        "skill_category": "Soft",
+        "difficulty": "Beginner",
+        "description": "Master concise technical explanations, active listening, and executive clarity for dev roles.",
+        "url": "https://www.youtube.com/watch?v=SRvTfx_t9yA",
+        "resource_type": "Video",
+        "is_free": true,
+        "duration": "1.5 hours (< 1 day)",
+        "duration_hours": 1.5,
+        "under_one_week": true,
+        "priority": 1,
+        "highly_suggested": true
+      },
+      "options": [
+        {
+          "title": "Professional Email & Workplace Communication",
+          "platform": "TCS iON",
+          "skill": "Communication",
+          "skill_category": "Soft",
+          "difficulty": "Beginner",
+          "description": "Short module on communicating clearly with engineering managers and cross-functional teams.",
+          "url": "https://learning.tcsionhub.in/hub/national/",
+          "resource_type": "Course",
+          "is_free": true,
+          "duration": "3 hours (1 day)",
+          "duration_hours": 3.0,
+          "under_one_week": true,
+          "priority": 2,
+          "highly_suggested": false
+        }
+      ],
+      "total_options_count": 1
+    },
+    {
+      "skill": "Team Collaboration",
+      "skill_category": "Soft",
+      "recommended": {
+        "title": "Agile Teamwork & Pull Request Collaboration in Tech",
+        "platform": "freeCodeCamp (YouTube)",
+        "skill": "Team Collaboration",
+        "skill_category": "Soft",
+        "difficulty": "Beginner",
+        "description": "Effective code review culture, asynchronous collaboration, sprint rituals, and conflict handling.",
+        "url": "https://www.youtube.com/watch?v=H7_4a3oXmHQ",
+        "resource_type": "Video",
+        "is_free": true,
+        "duration": "1.2 hours (< 1 day)",
+        "duration_hours": 1.2,
+        "under_one_week": true,
+        "priority": 1,
+        "highly_suggested": true
+      },
+      "options": [],
+      "total_options_count": 0
+    },
+    {
+      "skill": "Stakeholder Communication & Business Impact",
+      "skill_category": "Soft",
+      "recommended": {
+        "title": "Explaining Tech to Non-Tech Stakeholders & The STAR Method",
+        "platform": "YouTube (Tech Career Coach)",
+        "skill": "Stakeholder Communication & Business Impact",
+        "skill_category": "Soft",
+        "difficulty": "Intermediate",
+        "description": "How to translate technical downtime into business impact, cost, resolution timelines, and mitigation.",
+        "url": "https://www.youtube.com/watch?v=8QM_F3K3rS0",
+        "resource_type": "Video",
+        "is_free": true,
+        "duration": "45 mins (< 1 day)",
+        "duration_hours": 0.75,
+        "under_one_week": true,
+        "priority": 1,
+        "highly_suggested": true
+      },
+      "options": [
+        {
+          "title": "Executive Communication for Engineers",
+          "platform": "Google Tech Writing / Docs",
+          "skill": "Stakeholder Communication & Business Impact",
+          "skill_category": "Soft",
+          "difficulty": "Beginner",
+          "description": "Structuring post-mortems and status updates using Situation, Task, Action, and Business Result (STAR).",
+          "url": "https://developers.google.com/tech-writing",
+          "resource_type": "Tutorial",
+          "is_free": true,
+          "duration": "2 hours (1 day)",
+          "duration_hours": 2.0,
+          "under_one_week": true,
+          "priority": 2,
+          "highly_suggested": false
+        }
+      ],
+      "total_options_count": 1
+    }
+  ],
+  "metadata": {
+    "total_resources": 30,
+    "technical_count": 25,
+    "soft_count": 5,
+    "skills_covered": [
+      "Linux",
+      "FastAPI",
+      "Redis",
+      "Docker",
+      "AWS",
+      "LangGraph",
+      "Git",
+      "Communication",
+      "Stakeholder Communication & Business Impact",
+      "Advanced RAG Optimization",
+      "SQL",
+      "PostgreSQL",
+      "Python",
+      "Team Collaboration"
+    ],
+    "skills_covered_count": 14,
+    "max_course_duration": "< 1 week (1 to 6 hours average)",
+    "all_under_one_week": true,
+    "generated_at": "2026-10-30T12:58:41.134586+00:00",
+    "for_agent5": true
+  }
+}

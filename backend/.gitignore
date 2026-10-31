@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches and test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Temporary storage & runtime audio cache
+interviewer/backend/cache/*.mp3
+interviewer/backend/cache/audio/*.mp3
+uploads/*
+!uploads/.gitkeep
+shared_output/*
+!shared_output/.gitkeep
+screening_local.db
+
+# OS files
+.DS_Store
+Thumbs.db
+

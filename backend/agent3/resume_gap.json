@@ -1,0 +1,32 @@
+{
+  "user_id": "kritimahajan60@gmail.com",
+  "resume_id": "resume_001",
+  "job_id": "Python Backend Developer",
+  "session_id": "6dcb163f-9b91-4548-b4cd-a2543a560039",
+  "module": "skill_gap_analysis",
+  "candidate_name": "Kriti Mahajan",
+  "target_job_title": "Python Backend Developer",
+  "status": "completed",
+  "data": {
+    "critical_gaps": [
+      "Python", "FastAPI", "SQL", "Git", "PostgreSQL", "Docker", "Linux"
+    ],
+    "important_gaps": [
+      "Redis", "AWS"
+    ],
+    "optional_gaps": [],
+    "matched_skills": ["REST APIs"],
+    "missing_keywords": [
+      "Python", "FastAPI", "SQL", "Git", "PostgreSQL", "Docker", "Linux", "Redis", "AWS"
+    ],
+    "soft_skills_analysis": {
+      "matched_soft_skills": ["Problem Solving"],
+      "missing_soft_skills": ["Communication", "Team Collaboration"]
+    },
+    "improvement_priority_order": [
+      "Python", "FastAPI", "Git", "Linux", "Docker", "PostgreSQL", "SQL",
+      "Redis", "AWS", "Communication", "Team Collaboration"
+    ]
+  },
+  "created_at": "2026-10-30T12:38:35Z"
+}

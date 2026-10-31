@@ -1,0 +1,73 @@
+{
+  "candidate": {
+    "name": "Kriti Mahajan",
+    "headline": "Full-Stack AI Engineer & Distributed Systems Developer",
+    "summary": "AI Engineer with 3+ years experience designing multi-agent LLM systems, scalable microservices, and retrieval-augmented generation pipelines.",
+    "email": "kriti.mahajan@example.com",
+    "phone": "+91-9876543210"
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Technology",
+      "branch": "Computer Science and Engineering",
+      "institution": "Indian Institute of Information Technology",
+      "graduation_year": 2023,
+      "evidence": "Completed thesis on optimization of transformer attention mechanisms"
+    }
+  ],
+  "skills": {
+    "programming_languages": ["Python", "TypeScript", "Go", "SQL"],
+    "frameworks": ["FastAPI", "Next.js", "React", "PyTorch"],
+    "libraries": ["LangChain", "LangGraph", "LlamaIndex", "Pydantic", "Tailwind CSS"],
+    "databases": ["PostgreSQL", "Supabase", "Redis", "Pinecone", "Qdrant"],
+    "cloud_technologies": ["AWS", "Docker", "Kubernetes", "Google Cloud Run"],
+    "tools": ["Git", "Postman", "Linux", "GitHub Actions"],
+    "soft_skills": ["Team Collaboration", "System Design", "Agile Leadership", "Technical Communication"],
+    "domain_specific_skills": ["Retrieval-Augmented Generation (RAG)", "Speech-to-Text (STT)", "Agentic Workflows", "Vector Search"]
+  },
+  "all_skills_flat": [
+    "Python", "TypeScript", "FastAPI", "Next.js", "PostgreSQL", "Supabase", "Docker", "RAG"
+  ],
+  "projects": [
+    {
+      "title": "Autonomous Research Agent",
+      "description": "Multi-agent deep research system using LangGraph and vector search that synthesizes comprehensive whitepapers from academic literature.",
+      "technologies": ["Python", "LangGraph", "FastAPI", "Pinecone", "OpenRouter"],
+      "features": [
+        "Recursive query decomposition and search execution",
+        "Fact-checking and citation cross-verification",
+        "Parallel markdown and PDF report generation"
+      ],
+      "outcomes": "Reduced academic synthesis time by 80% while sustaining 96% citation accuracy across 5,000+ test queries."
+    },
+    {
+      "title": "Real-Time Spoken AI Interviewer",
+      "description": "Interactive Google Meet-style interview bot conducting voice-first technical assessments with sub-second speech pipeline latency.",
+      "technologies": ["Next.js", "FastAPI", "faster-whisper", "Edge-TTS", "Supabase"],
+      "features": [
+        "Dynamic sound wave visualizer responding to voice synthesis",
+        "Live audio recording with browser MediaRecorder",
+        "Client-side video keyframe behavioral and expression analysis"
+      ],
+      "outcomes": "Conducted 200+ simulated interviews with an average candidate engagement rating of 4.8/5."
+    },
+    {
+      "title": "Distributed Vector Ingestion Pipeline",
+      "description": "High-throughput asynchronous ingestion pipeline for processing multi-modal documents into Qdrant vector database.",
+      "technologies": ["Go", "Redis", "Qdrant", "Docker", "AWS S3"],
+      "features": [
+        "Distributed queue with backpressure handling",
+        "Chunking and embedding with batched GPU acceleration",
+        "Dead-letter queues and automated failure retries"
+      ],
+      "outcomes": "Scaled to process over 100,000 documents per hour with zero data loss."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "issuing_organization": "Amazon Web Services",
+      "related_skills": ["AWS", "Cloud Architecture", "Distributed Systems"]
+    }
+  ]
+}
