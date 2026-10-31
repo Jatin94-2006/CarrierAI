@@ -1,0 +1,23 @@
+{
+  "python.analysis.extraPaths": [
+    ".",
+    "./app",
+    "./interview_app",
+    "./agent2",
+    "./agent3",
+    "./agent5",
+    "./CTBuildfest_2.0/module_1_resume_screening",
+    "./interviewer/backend"
+  ],
+  "python.autoComplete.extraPaths": [
+    ".",
+    "./app",
+    "./interview_app",
+    "./agent2",
+    "./agent3",
+    "./agent5",
+    "./CTBuildfest_2.0/module_1_resume_screening",
+    "./interviewer/backend"
+  ]
+}
+
