@@ -1,11 +1,11 @@
 // Interview API Client for Agent 4 (Interviewer Engine)
 // Connects frontend directly to FastAPI routes on port 8000
 
-const API_BASE = "";
+const API_BASE = (import.meta.env.VITE_API_URL || "").replace(/\/$/, "");
 
 export async function startInterviewSession(candidateName, role) {
   try {
-    const res = await fetch(`/api/interview/start`, { 
+    const res = await fetch(`${API_BASE}/api/interview/start`, { 
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ 
@@ -28,7 +28,7 @@ export async function createDirectInterview(resumeText, jdText) {
     if (resumeText) formData.append("resume_text", resumeText);
     if (jdText) formData.append("jd_text", jdText);
 
-    const res = await fetch(`/interviews`, {
+    const res = await fetch(`${API_BASE}/interviews`, {
       method: "POST",
       body: formData,
     });
@@ -68,7 +68,7 @@ export async function submitQuestionAnswer(interviewId, qId, audioBlob, duration
       });
     }
 
-    const res = await fetch(`/interviews/${interviewId}/answers/${qId}`, {
+    const res = await fetch(`${API_BASE}/interviews/${interviewId}/answers/${qId}`, {
       method: "POST",
       body: formData,
     });
@@ -95,7 +95,7 @@ export async function submitQuestionAnswer(interviewId, qId, audioBlob, duration
 
 export async function finishInterviewSession(interviewId) {
   try {
-    const res = await fetch(`/interviews/${interviewId}/finish`, {
+    const res = await fetch(`${API_BASE}/interviews/${interviewId}/finish`, {
       method: "POST",
     });
     if (res.ok) {
@@ -109,7 +109,7 @@ export async function finishInterviewSession(interviewId) {
 
 export async function evaluateInterviewSession(transcripts, interviewId, role) {
   try {
-    const res = await fetch(`/api/interview/evaluate`, {
+    const res = await fetch(`${API_BASE}/api/interview/evaluate`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ transcripts, interview_id: interviewId, role })

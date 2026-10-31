@@ -13,6 +13,7 @@ import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 import { supabase } from './supabaseClient';
 
+const API_BASE = (import.meta.env.VITE_API_URL || "").replace(/\/$/, "");
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 export const authService = {
@@ -186,7 +187,7 @@ export const careerService = {
           formData.append("score_simulation_type", targetScoreType);
         }
 
-        const response = await fetch("/api/resume/analyze", {
+        const response = await fetch(`${API_BASE}/api/resume/analyze`, {
           method: "POST",
           body: formData
         });
@@ -281,7 +282,7 @@ export const careerService = {
     }
 
     try {
-      const res = await fetch("/api/gap-analysis");
+      const res = await fetch(`${API_BASE}/api/gap-analysis`);
       if (res.ok) {
         const json = await res.json();
         if (json.data) return { success: true, data: json.data };
@@ -305,7 +306,7 @@ export const careerService = {
   // 5. Start Interview Session
   startInterview: async (config = {}) => {
     try {
-      const res = await fetch("/interviews", {
+      const res = await fetch(`${API_BASE}/interviews`, {
         method: "POST"
       });
       if (res.ok) {
@@ -364,7 +365,7 @@ export const pdfService = {
   generateReportPDF: async (elementId = "careerai-final-report", reportTitle = "CareerAI Assessment Report") => {
     try {
       // 1. Try downloading official PDF from backend (Agent 5 ReportLab PDF)
-      const res = await fetch("/api/report/pdf");
+      const res = await fetch(`${API_BASE}/api/report/pdf`);
       if (res.ok) {
         const blob = await res.blob();
         const url = window.URL.createObjectURL(blob);
