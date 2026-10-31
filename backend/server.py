@@ -564,6 +564,24 @@ def generate_assessment_report_pdf(session_data: dict, output_path: Path) -> str
     return str(output_path)
 
 
+
+@app.get("/")
+async def root():
+    return {
+        "status": "online",
+        "service": "CareerAI Multi-Agent Live Engine",
+        "version": "2.5.0",
+        "docs_url": "/docs",
+        "health_check": "/api/health",
+        "message": "Render backend is successfully deployed and running."
+    }
+
+
+@app.get("/favicon.ico", include_in_schema=False)
+async def favicon():
+    return JSONResponse(status_code=204, content=None)
+
+
 @app.get("/api/health")
 async def health_check():
     return {
